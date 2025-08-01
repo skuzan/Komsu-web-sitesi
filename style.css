@@ -62,3 +62,22 @@
     font-family: Roboto, sans-serif;
     color: white;
 }
+
+/* CONTENT */
+
+.komsu-img{
+    width: 300px;
+    height: auto;
+}
+
+.content{
+    display: flex;
+}
+
+.content-img{
+    display: inline-block;
+}
+
+.content-baslik{
+    margin-top: 30px;
+}
