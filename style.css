@@ -28,9 +28,16 @@
     font-family: "Space Grotesk", sans-serif;
     border-right: 1px solid #ccc;
     font-weight: 500;
+    text-decoration: none;
 }
  .top-menu-oge:last-child{
   border-right: none;
+
+a {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+}
+
 
 }
 
@@ -100,4 +107,84 @@ body{
 
 .li-detay{
     margin: 0px 5px 0px 30px;
+}
+
+/* SIGN IN, SIGN OUT */
+
+.input{
+  display: block;
+  margin-top: 20px;
+  width: 300px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.input:hover{
+  
+  outline-color: #54a7b0;
+  
+}
+
+.sifremi-unuttum{
+  margin-top: 10px;
+  color: #54a7b0;
+  margin: 20px 0px 0px 180px;
+  font-size: 12px;
+}
+
+button{
+  background-color:#54a7b0 ;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  display: block;
+  margin-top: 10px;
+}
+
+button:hover{
+  background-color: #1b909d;
+}
+
+.kayit{
+  margin-top: 20px;
+}
+
+.hesap{
+  margin-top: 50px;
+  text-align: center;
+  color: #54a7b0;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.label-sifre{
+  display: block;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.sign-in{
+    margin: 30px 30px 30px 30px;
+    background-color: #444444;
+}
+
+.giris-bolumu{
+    margin: 100px 300px 200px 300px;
+}
+
+.sign-in-2{
+    background-color: #ffffff;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+}
+
+.form-sign-in{
+    margin: 10px 130px;
+}
+
+#logo{
+    margin: 15px 50px 0px 170px;
 }
