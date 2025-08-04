@@ -69,6 +69,17 @@
     height: auto;
 }
 
+h1{
+    font-size: 32px;
+    margin: 0px 10px 10px 0px ;
+}
+
+h2{
+    font-size: 24px;
+    margin: 10px 10px 10px 0px ;
+
+}
+
 .content{
     display: flex;
     margin-top: 30px;
@@ -76,4 +87,17 @@
 
 body{
     font-family:"Space Grotesk", sans-serif;
+}
+
+.li-baslik{
+    font-size: 20px;
+    margin: 20px 0px 10px 10px;
+    font-weight: 600;
+    list-style-type: none;
+    list-style-image: url(/public_html/img/app-icon3.png);
+    
+}
+
+.li-detay{
+    margin: 0px 5px 0px 30px;
 }
